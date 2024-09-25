@@ -26,6 +26,7 @@ Step 7: Stop the program.
 Program to implement the prediction of iris species using SGD Classifier.
 Developed by: Shashank R
 RegisterNumber:  212223230205
+*/
 
 import pandas as pd
 from sklearn.datasets import load_iris
@@ -63,7 +64,7 @@ print(f"Accuracy:{accuracy:.3f}")
 cf=confusion_matrix(y_test, y_pred)
 print("Confusion Matrix")
 print(cf)
-*/
+
 ```
 
 ## Output:
